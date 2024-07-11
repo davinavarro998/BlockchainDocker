@@ -1,0 +1,23 @@
+{
+  "name": "blockchaindocker",
+  "version": "1.0.0",
+  "description": "It is just a project for educational purposes on how to dockerize a blockchain project",
+  "main": "index.js",
+  "scripts": {
+    "compile":"npx hardhat compile",
+    "coverage":"npx hardhat coverage",
+    "deploy":"npx hardhat run scripts/deploy.ts --network localhost",
+    "test": "npx hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "hardhat": "^2.22.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
